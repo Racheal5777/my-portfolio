@@ -156,7 +156,7 @@ button{
         /* padding: px; */
     }
     .imgs{
-        width: fit-content;
+        width: max-content;
         gap: 2px;
     }
     
