@@ -110,6 +110,7 @@ button{
         font-size: 1.5rem;
     }
     .links{
+        display: none;
         position: absolute;
         width: 85%;
         padding: 1.4rem 1rem;
@@ -118,13 +119,11 @@ button{
         z-index: 1;
         background-color: #0a0701;
         opacity: 0.8;
-        /* border-bottom: 4px solid #fff; */
-        transform: translate(100%, 0);
+        transform: translate(100%);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     }
     .links a{
         color: #fff;
-        /* border-bottom: 2px solid #fff; */
         padding-bottom: 5px;
         display: flex;
         flex-direction: column;
@@ -132,6 +131,7 @@ button{
         text-decoration-line: none;
     }
     #toggle:checked + .links{
+        overflow: hidden;
         display: block;
         transform: none;
     }
