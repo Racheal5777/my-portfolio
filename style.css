@@ -152,8 +152,12 @@ button{
     .images{
         flex-direction: column;
         overflow: hidden;
-        width: fit-content;
+        /* width: fit-content; */
         /* padding: px; */
+    }
+    .imgs{
+        width: fit-content;
+        gap: 7px;
     }
     
 }
