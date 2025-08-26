@@ -152,6 +152,7 @@ button{
     .images{
         flex-direction: column;
         overflow: hidden;
+        width: max-content;
         /* width: fit-content; */
         /* padding: px; */
     }
