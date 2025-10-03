@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+       <header>
+    <nav class="nav-bar genLayout">
+        <div>RachealTife</div>
+        <label for="toggle" class="hamburger">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="links">
+            <a href="index.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contacts</a>
+        </div>
+    </nav>
+   </header> 
+
+<div class="dyou">
+    <h3>Do You Have A Project In Mind?</h3>
+</div>
+<div>
+    <form class="form-box" 
+    action="https://formspree.io/f/movkwbwl" method="POST">
+    <label>Name</label>
+    <input type="text" name="name" placeholder="Your name"> <br>
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Your email"><br>
+    <label>Message</label>
+    <input type="text" name="message" placeholder="Leave a message here"><br>
+    <label>What kind of project are you interested in?</label>
+
+    <select name="project">
+    <option value="select an option" >select an option</option>
+    <option value="Tech">Web development</option>
+    <option>design</option>
+     <option>consulting</option>
+    </select><br>
+
+     <label>How did you hear about me?</label>
+     <select name="hear about me">
+      <option>Select an option</option><br>
+         <option>Social Media</option>
+         <option>Search Engine</option>
+        <option>Referral</option>
+         </select>
+         <button class="submit">Book a call</button>
+</form>
+</div>
+</body>
+</html>
